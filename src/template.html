@@ -45,15 +45,16 @@
     <h2>The Truth Is Out There</h2>
     <p class="intro">Join Fox Mulder and Agent Scully in a hit series that documents unexplainable activity, and the governments possible involvement. On this practice page you'll see a collection of episodes, character bios, and a gallery exhibiting key moments in the show as well as popular monsters and their debut.</p>
 </section>
-<div style="display: flex; align-items: center;">
-    <button id="left-arrow">&#8592;</button>
-<section id="carousel" class="carousel">
-    <img src="assets/thegrey.jpg" alt="The Grey" />
-    <img src="assets/thehost.jpg" alt="The Host" />
-    <img src="assets/tooms.jpg" alt="Tooms" />
-</section>
-<button id="right-arrow">&#8594;</button>
+<div class="carousel-frame">
+  <button id="left-arrow">&#8592;</button>
+  <div class="carousel-track">
+    <div class="slide"><img src="assets/thegrey.jpg" alt="The Grey" /></div>
+    <div class="slide"><img src="assets/thehost.jpg" alt="The Host" /></div>
+    <div class="slide"><img src="assets/tooms.jpg" alt="Tooms" /></div>
+  </div>
+  <button id="right-arrow">&#8594;</button>
 </div>
+<div class="carousel-dots"></div>
 <section id="quote">
     <blockquote>
         <p>"The truth is out there."</p>
